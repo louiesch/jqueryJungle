@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.pgStyle {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.pgStyle:hover {
+  text-decoration: underline;
+}

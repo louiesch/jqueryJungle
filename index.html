@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jquery in the Jungle</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
@@ -12,17 +12,23 @@
   <body>
     <div class="container">
       <h1>Welcome to the Jungle</h1>
-      <p>Click here to see a gorilla</p>
-      <div>
+      <p class="beginning"><span class="clickable" id="div1">Click here</span> to see a gorilla</p>
+      <div id="gorilla">
+        <img src="img/gorilla.jpg" alt="A thoughtful gorilla gazing">
         <p>Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit the forest of central Sub-Saharan Africa. They are the largest living primates.</p>
+        <p class="pgStyle" id="hiddenP1">Hide</p>
       </div>
-      <p>Click here to see a sloth</p>
-      <div>
+      <p class="beginning"><span class="clickable" id="div2">Click here</span> to see a sloth</p>
+      <div id="sloth">
+        <img src="img/sloth.png" alt="A small sloth">
         <p>Sloths are a group of arboreal Neotropical xenathran mammals, constituting the suborder Folivora. Noted for their slowness of movement, they spend most of their lives hanging upside down in the trees of the tropical rainforests of South America and Central America.</p>
+        <p class="pgStyle" id="hiddenP2">Hide</p>
       </div>
-      <p>Click here to see a lion</p>
-      <div>
+      <p class="beginning"><span class="clickable" id="div3">Click here</span> to see a lion</p>
+      <div id="lion">
+        <img src="img/lion.jpg" alt="A majestic lion standing">
         <p>The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera. It is sexually dimorphic; adult male lions have a prominent mane. Lions are a social species, forming groups called <em>prides</em>.</p>
+        <p class="pgStyle" id="hiddenP3">Hide</p>
       </div>
     </div>
   </body>
